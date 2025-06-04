@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berqurban Bersama UNP Peduli - Idul Adha 1447 H</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CSS Styles */
+        :root {
+            --primary-color: #2E7D32;
+            --secondary-color: #689F38;
+            --accent-color: #558B2F;
+            --light-color: #F1F8E9;
+            --dark-color: #1B5E20;
+            --text-color: #333;
+        }
+        
+        body {
+            font-family: 'Amiri', 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f8e9;
+            color: var(--text-color);
+            background-image: url('https://transparenttextures.com/patterns/arabesque.png');
+            position: relative;
+        }
+        
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(104, 159, 56, 0.05) 100%);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(85, 139, 47, 0.2);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid var(--secondary-color);
+        }
+        
+        .container::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="%232E7D32" opacity="0.1"><path d="M50 0 L100 50 L50 100 L0 50 Z"/></svg>');
+            background-size: contain;
+            z-index: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(85, 139, 47, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+        
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="white" opacity="0.05"><path d="M30 50 Q50 30 70 50 T90 50"/></svg>');
+            background-size: 200px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            font-family: 'Amiri', serif;
+            letter-spacing: 1px;
+        }
+        
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-top: 30px;
+            font-size: 26px;
+            font-family: 'Amiri', serif;
+            position: relative;
+        }
+        
+        h2::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100px;
+            height: 3px;
+            background: var(--accent-color);
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 22px;
+            font-family: 'Amiri', serif;
+        }
+
+        .form-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            border: 1px solid var(--secondary-color);
+            border-radius: 10px;
+            background-color: #f1f8e9;
+            box-shadow: 0 5px 15px rgba(85, 139, 47, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .form-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="%23689F38" opacity="0.1"><circle cx="50" cy="50" r="40"/></svg>');
+            background-size: contain;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+        
+        .form-group i {
+            position: absolute;
+            left: 15px;
+            top: 42px;
+            color: var(--accent-color);
+        }
+        
+        .form-group input[type="text"],
+        .form-group input[type="number"],
+        .form-group input[type="email"],
+        .form-group input[type="month"],
+        .form-group select,
+        .form-group textarea {
+            padding-left: 40px !important;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 16px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="month"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid var(--secondary-color);
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: all 0.3s;
+            background-color: #f8fbf3;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        input[type="email"]:focus,
+        input[type="month"]:focus,
+        select:focus,
+        textarea:focus {
+            border-color: var(--primary-color);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
+            background-color: white;
+        }
+        
+        select {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23558B2F'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            background-size: 15px;
+        }
+
+        button {
+            background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-right: 10px;
+            box-shadow: 0 4px 10px rgba(85, 139, 47, 0.2);
+            font-family: 'Poppins', sans-serif;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        button i {
+            font-size: 14px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(85, 139, 47, 0.3);
+            opacity: 0.9;
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+
+        button.secondary {
+            background: linear-gradient(to right, #6c757d, #5a6268);
+        }
+
+        button.secondary:hover {
+            background: linear-gradient(to right, #5a6268, #495057);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(85, 139, 47, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #dcedc8;
+            padding: 14px;
+            text-align: left;
+        }
+
+        th {
+            background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f8e9;
+        }
+
+        tr:hover {
+            background-color: #dcedc8;
+        }
+        
+        tbody tr:last-child {
+            font-weight: bold;
+            background-color: #e8f5e9 !important;
+        }
+
+        .nav-tabs {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+            border-bottom: 2px solid var(--secondary-color);
+            position: relative;
+        }
+        
+        .nav-tabs::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: rgba(85, 139, 47, 0.2);
+        }
+
+        .nav-tabs li {
+            margin-right: 5px;
+        }
+
+        .nav-tabs a {
+            display: block;
+            padding: 14px 25px;
+            text-decoration: none;
+            color: var(--dark-color);
+            background: #dcedc8;
+            border-radius: 8px 8px 0 0;
+            font-weight: 600;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .nav-tabs a::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--primary-color);
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+
+        .nav-tabs a:hover {
+            background: #c5e1a5;
+            color: var(--primary-color);
+        }
+        
+        .nav-tabs a:hover::before {
+            transform: scaleX(1);
+        }
+
+        .nav-tabs a.active {
+            background: white;
+            color: var(--primary-color);
+            border: 1px solid var(--secondary-color);
+            border-bottom: 1px solid white;
+            margin-bottom: -1px;
+        }
+        
+        .nav-tabs a.active::before {
+            transform: scaleX(1);
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .info-box {
+            background-color: #e8f5e9;
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .info-box::before {
+            content: "\f05a";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 24px;
+            color: rgba(46, 125, 50, 0.1);
+        }
+
+        .info-box p {
+            margin: 0;
+            color: var(--dark-color);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .success-message {
+            background-color: #e8f5e9;
+            color: #2b8a3e;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            display: none;
+            border-left: 5px solid #4caf50;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .warning-message {
+            background-color: #fff9e6;
+            color: #e67700;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            display: none;
+            border-left: 5px solid #ffd43b;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        small {
+            display: block;
+            margin-top: 8px;
+            color: #6c757d;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        .form-actions {
+            margin-top: 35px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+        }
+
+        .search-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .search-container input {
+            flex: 1;
+            padding-left: 45px !important;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23558B2F'%3e%3cpath d='M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: left 15px center;
+            background-size: 20px;
+        }
+
+        .filter-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            align-items: center;
+        }
+
+        .filter-container select {
+            width: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+            
+            header p {
+                font-size: 16px;
+            }
+
+            .nav-tabs {
+                flex-wrap: wrap;
+            }
+
+            .nav-tabs li {
+                margin-bottom: 5px;
+                width: 100%;
+            }
+
+            .nav-tabs a {
+                padding: 12px;
+                border-radius: 6px;
+                border-bottom: 1px solid var(--secondary-color);
+            }
+            
+            .nav-tabs a.active {
+                border-bottom: 1px solid var(--secondary-color);
+                margin-bottom: 0;
+            }
+
+            .form-section {
+                padding: 20px;
+            }
+            
+            .form-actions {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            button {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .filter-container {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .filter-container select {
+                width: 100%;
+            }
+            
+            .search-container {
+                flex-direction: column;
+            }
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+
+            body {
+                background: none;
+                padding: 0;
+                font-size: 12px;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 10px;
+                margin: 0;
+                border: none;
+            }
+            
+            .container::after {
+                display: none;
+            }
+
+            header {
+                border-radius: 0;
+                margin-bottom: 15px;
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+            
+            header p {
+                font-size: 14px;
+            }
+
+            table {
+                box-shadow: none;
+                font-size: 10px;
+            }
+            
+            th, td {
+                padding: 8px 6px;
+            }
+
+            th {
+                background: var(--primary-color) !important;
+                color: white !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .form-section {
+                page-break-inside: avoid;
+            }
+        }
+        
+        /* Additional styles from original code */
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border: 3px solid var(--secondary-color);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .qurban-type {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f1f8e9;
+            border: 1px dashed var(--secondary-color);
+            align-items: center;
+        }
+        
+        .qurban-type i {
+            color: var(--primary-color);
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        
+        .qurban-type span:first-child {
+            display: flex;
+            align-items: center;
+        }
+        
+        .qurban-type span:last-child {
+            font-weight: 700;
+            color: var(--accent-color);
+            font-size: 18px;
+        }
+        
+        /* Eid decorative elements */
+        .eid-decoration {
+            position: absolute;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        
+        .decoration-1 {
+            top: 50px;
+            left: 50px;
+            font-size: 100px;
+            color: var(--primary-color);
+        }
+        
+        .decoration-2 {
+            bottom: 50px;
+            right: 50px;
+            font-size: 80px;
+            color: var(--secondary-color);
+            transform: rotate(30deg);
+        }
+        
+        /* Form checkbox styling */
+        input[type="checkbox"] {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--secondary-color);
+            border-radius: 4px;
+            margin-right: 10px;
+            position: relative;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        
+        input[type="checkbox"]:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        input[type="checkbox"]:checked::after {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Eid Decorative Elements -->
+    <div class="eid-decoration decoration-1">
+        <i class="fas fa-mosque"></i>
+    </div>
+    <div class="eid-decoration decoration-2">
+        <i class="fas fa-star-and-crescent"></i>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-hands-helping"></i>
+            </div>
+            <h1>BERQURBAN BERSAMA UNP PEDULI</h1>
+            <p>Program Qurban untuk Dosen dan Karyawan UNP Tahun 1447 H</p>
+        </header>
+
+        <ul class="nav-tabs no-print">
+            <li><a href="#pendaftaran" class="active"><i class="fas fa-edit"></i> Pendaftaran Qurban</a></li>
+            <li><a href="#potongan-gaji"><i class="fas fa-calculator"></i> Potongan Gaji</a></li>
+            <li><a href="#laporan"><i class="fas fa-file-alt"></i> Laporan Qurban</a></li>
+        </ul>
+
+        <div id="pendaftaran" class="tab-content active">
+            <div class="info-box">
+                <p><i class="fas fa-info-circle"></i> Formulir ini ditujukan bagi dosen dan karyawan UNP yang ingin berpartisipasi dalam program qurban bersama UNP Peduli. Pendaftaran akan dikenakan potongan gaji bulanan selama 12 bulan.</p>
+            </div>
+
+            <div id="successPendaftaran" class="success-message"></div>
+
+            <form id="formPendaftaran">
+                <div class="form-group">
+                    <label for="nama"><i class="fas fa-user"></i> Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap">
+                </div>
+
+                <div class="form-group">
+                    <label for="nip"><i class="fas fa-id-card"></i> NIP/NIK:</label>
+                    <input type="text" id="nip" name="nip" required placeholder="Masukkan NIP/NIK">
+                    <small>Nomor Induk Pegawai/Nomor Induk Karyawan</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Masukkan alamat email">
+                </div>
+
+                <div class="form-group">
+                    <label for="no_hp"><i class="fas fa-phone"></i> Nomor HP/WhatsApp:</label>
+                    <input type="text" id="no_hp" name="no_hp" required placeholder="Masukkan nomor telepon">
+                </div>
+
+                <div class="form-group">
+                    <label for="fakultas"><i class="fas fa-building"></i> Fakultas/Unit Kerja:</label>
+                    <select id="fakultas" name="fakultas" required>
+                        <option value="">Pilih Fakultas/Unit Kerja</option>
+                        <option value="Fakultas Ilmu Pendidikan">Fakultas Ilmu Pendidikan</option>
+                        <option value="Fakultas Bahasa dan Seni">Fakultas Bahasa dan Seni</option>
+                        <option value="Fakultas Matematika dan Ilmu Pengetahuan Alam">Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+                        <option value="Fakultas Teknik">Fakultas Teknik</option>
+                        <option value="Fakultas Ilmu Keolahragaan">Fakultas Ilmu Keolahragaan</option>
+                        <option value="Fakultas Ilmu Sosial">Fakultas Ilmu Sosial</option>
+                        <option value="Fakultas Ekonomi">Fakultas Ekonomi</option>
+                        <option value="Pascasarjana">Pascasarjana</option>
+                        <option value="Rektorat">Rektorat</option>
+                        <option value="Biro Administrasi Umum">Biro Administrasi Umum</option>
+                        <option value="Biro Administrasi Akademik">Biro Administrasi Akademik</option>
+                        <option value="Biro Administrasi Kemahasiswaan">Biro Administrasi Kemahasiswaan</option>
+                        <option value="Biro Administrasi Perencanaan dan Sistem Informasi">Biro Administrasi Perencanaan dan Sistem Informasi</option>
+                        <option value="Lembaga Penelitian dan Pengabdian Masyarakat">Lembaga Penelitian dan Pengabdian Masyarakat</option>
+                        <option value="Lembaga Pengembangan Pendidikan">Lembaga Pengembangan Pendidikan</option>
+                        <option value="UPT Perpustakaan">UPT Perpustakaan</option>
+                        <option value="UPT Teknologi Informasi dan Komunikasi">UPT Teknologi Informasi dan Komunikasi</option>
+                        <option value="UPT Pusat Bahasa">UPT Pusat Bahasa</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jabatan"><i class="fas fa-briefcase"></i> Jabatan:</label>
+                    <select id="jabatan" name="jabatan" required>
+                        <option value="">Pilih Jabatan</option>
+                        <option value="Dosen">Dosen</option>
+                        <option value="Karyawan">Karyawan</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jenis_qurban"><i class="fas fa-paw"></i> Jenis Qurban:</label>
+                    <select id="jenis_qurban" name="jenis_qurban" required>
+                        <option value="">Pilih Jenis Qurban</option>
+                        <option value="Sapi (1/7)">Sapi (1/7 bagian) - Rp 3.000.000</option>
+                        <option value="Kambing">Kambing - Rp 2.500.000</option>
+                    </select>
+                </div>
+                
+                <div class="qurban-type">
+                    <span><i class="fas fa-cow"></i> Sapi (1/7 bagian)</span>
+                    <span>Rp 3.000.000</span>
+                </div>
+                <div class="qurban-type">
+                    <span><i class="fas fa-goat"></i> Kambing</span>
+                    <span>Rp 2.500.000</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="pernyataan">
+                        <input type="checkbox" id="pernyataan" name="pernyataan" required>
+                        Saya menyetujui pemotongan gaji bulanan selama 12 bulan untuk pembiayaan qurban ini
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button type="reset" class="secondary"><i class="fas fa-undo"></i> Reset Form</button>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Daftar Qurban</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="potongan-gaji" class="tab-content">
+            <h2><i class="fas fa-calculator"></i> Form Potongan Gaji Qurban</h2>
+            <p>Form ini diisi oleh bagian penggajian untuk menginput data potongan gaji peserta qurban.</p>
+
+            <div id="successPotongan" class="success-message"></div>
+            <div id="warningPotongan" class="warning-message"></div>
+
+            <form id="formPotongan">
+                <div class="search-container">
+                    <input type="text" id="searchNIP" name="searchNIP" placeholder="Masukkan NIP/NIK peserta">
+                    <button type="button" id="btnCari"><i class="fas fa-search"></i> Cari Peserta</button>
+                </div>
+
+                <div id="pesertaInfo" style="display: none;">
+                    <div class="form-group">
+                        <label><i class="fas fa-user"></i> Nama Peserta:</label>
+                        <p id="infoNama" style="padding: 8px 0; font-size: 1.1rem; color: var(--primary-color); font-weight: 600;"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fas fa-building"></i> Fakultas/Unit:</label>
+                        <p id="infoFakultas" style="padding: 8px 0; font-size: 1.1rem;"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fas fa-paw"></i> Jenis Qurban:</label>
+                        <p id="infoQurban" style="padding: 8px 0; font-size: 1.1rem; color: var(--accent-color); font-weight: 600;"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="potongan_perbulan"><i class="fas fa-money-bill-wave"></i> Potongan per Bulan (Rp):</label>
+                        <input type="number" id="potongan_perbulan" name="potongan_perbulan" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bulan_mulai"><i class="fas fa-calendar-alt"></i> Bulan Mulai Potongan:</label>
+                        <input type="month" id="bulan_mulai" name="bulan_mulai" required>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="reset" class="secondary"><i class="fas fa-undo"></i> Reset Form</button>
+                        <button type="submit"><i class="fas fa-save"></i> Simpan Potongan</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="laporan" class="tab-content">
+            <h2><i class="fas fa-file-alt"></i> Laporan Qurban 1447 H</h2>
+            <p>Laporan ini menampilkan data peserta qurban dan total potongan gaji.</p>
+
+            <div class="filter-container no-print">
+                <button type="button" onclick="generateLaporan()" class="secondary"><i class="fas fa-sync-alt"></i> Refresh Data</button>
+                <button type="button" onclick="window.print()"><i class="fas fa-print"></i> Cetak Laporan</button>
+            </div>
+
+            <div id="laporanContainer">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>NIP</th>
+                            <th>Jabatan</th>
+                            <th>Fakultas/Unit</th>
+                            <th>Jenis Qurban</th>
+                            <th>Potongan/Bulan</th>
+                            <th>Total Potongan</th>
+                            <th>Mulai</th>
+                        </tr>
+                    </thead>
+                    <tbody id="laporanBody">
+                        <!-- Data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="no-print" style="margin-top: 30px; text-align: right;">
+                <small>Laporan dicetak pada: <span id="tanggalCetak"></span></small>
+            </div>
+        </div>
+    </div>
+
+       <script>
+        // Data storage
+        let pesertaQurban = JSON.parse(localStorage.getItem('pesertaQurban')) || [];
+        let potonganGaji = JSON.parse(localStorage.getItem('potonganGaji')) || [];
+        
+        // Tab functionality
+        document.querySelectorAll('.nav-tabs a').forEach(tab => {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all tabs and content
+                document.querySelectorAll('.nav-tabs a').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Add active class to clicked tab and corresponding content
+                this.classList.add('active');
+                const tabId = this.getAttribute('href');
+                document.querySelector(tabId).classList.add('active');
+                
+                // If opening report tab, refresh data
+                if (tabId === '#laporan') {
+                    generateLaporan();
+                }
+            });
+        });
+        
+        // Form Pendaftaran
+        document.getElementById('formPendaftaran').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const peserta = {
+                nama: document.getElementById('nama').value,
+                nip: document.getElementById('nip').value,
+                email: document.getElementById('email').value,
+                no_hp: document.getElementById('no_hp').value,
+                fakultas: document.getElementById('fakultas').value,
+                jabatan: document.getElementById('jabatan').value,
+                jenis_qurban: document.getElementById('jenis_qurban').value,
+                tanggal_daftar: new Date().toLocaleDateString('id-ID', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                })
+            };
+            
+            // Check duplicate NIP
+            if (pesertaQurban.some(p => p.nip === peserta.nip)) {
+                showAlert('NIP sudah terdaftar!', 'successPendaftaran', false);
+                return;
+            }
+            
+            pesertaQurban.push(peserta);
+            localStorage.setItem('pesertaQurban', JSON.stringify(pesertaQurban));
+            
+            showAlert('Pendaftaran berhasil!', 'successPendaftaran');
+            this.reset();
+        });
+        
+        // Search peserta
+        document.getElementById('btnCari').addEventListener('click', function() {
+            const nip = document.getElementById('searchNIP').value;
+            const peserta = pesertaQurban.find(p => p.nip === nip);
+            const pesertaInfo = document.getElementById('pesertaInfo');
+            
+            if (peserta) {
+                document.getElementById('infoNama').textContent = peserta.nama;
+                document.getElementById('infoFakultas').textContent = peserta.fakultas;
+                document.getElementById('infoQurban').textContent = peserta.jenis_qurban;
+                
+                // Calculate potongan per bulan based on jenis qurban
+                let nominalQurban = 0;
+                if (peserta.jenis_qurban.includes("Sapi")) {
+                    nominalQurban = 3000000;
+                } else if (peserta.jenis_qurban.includes("Kambing")) {
+                    nominalQurban = 2500000;
+                }
+                
+                const potonganPerBulan = Math.ceil(nominalQurban / 12);
+                document.getElementById('potongan_perbulan').value = potonganPerBulan;
+                
+                // Set bulan mulai to next month
+                const today = new Date();
+                const nextMonth = new Date(today.getFullYear(), today.getMonth() + 1, 1);
+                const year = nextMonth.getFullYear();
+                const month = String(nextMonth.getMonth() + 1).padStart(2, '0');
+                document.getElementById('bulan_mulai').value = `${year}-${month}`;
+                
+                pesertaInfo.style.display = 'block';
+                
+                // Hide warning message if shown
+                document.getElementById('warningPotongan').style.display = 'none';
+            } else {
+                showAlert('Peserta dengan NIP tersebut tidak ditemukan!', 'warningPotongan', false);
+                pesertaInfo.style.display = 'none';
+            }
+        });
+        
+        // Form Potongan
+        document.getElementById('formPotongan').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const nip = document.getElementById('searchNIP').value;
+            const potongan = {
+                nip: nip,
+                nominal: parseInt(document.getElementById('potongan_perbulan').value),
+                bulan_mulai: document.getElementById('bulan_mulai').value,
+                tanggal_input: new Date().toLocaleDateString('id-ID', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                })
+            };
+            
+            // Check if potongan already exists for this NIP
+            const existingPotonganIndex = potonganGaji.findIndex(p => p.nip === nip);
+            if (existingPotonganIndex !== -1) {
+                potonganGaji[existingPotonganIndex] = potongan;
+            } else {
+                potonganGaji.push(potongan);
+            }
+            
+            localStorage.setItem('potonganGaji', JSON.stringify(potonganGaji));
+            
+            showAlert('Data potongan gaji berhasil disimpan!', 'successPotongan');
+            
+            // Reset form
+            this.reset();
+            document.getElementById('pesertaInfo').style.display = 'none';
+            
+            // Refresh laporan
+            generateLaporan();
+        });
+        
+        // Generate Laporan
+        function generateLaporan() {
+            const container = document.getElementById('laporanBody');
+            container.innerHTML = '';
+            
+            if (pesertaQurban.length === 0) {
+                container.innerHTML = '<tr><td colspan="9" style="text-align: center;">Tidak ada data peserta</td></tr>';
+                return;
+            }
+            
+            // Join peserta data with potongan data
+            const laporanData = pesertaQurban.map(peserta => {
+                const potongan = potonganGaji.find(p => p.nip === peserta.nip) || {};
+                return {
+                    ...peserta,
+                    ...potongan
+                };
+            });
+            
+            let totalPotongan = 0;
+            
+            laporanData.forEach((item, index) => {
+                const total = item.nominal ? item.nominal * 12 : 0;
+                totalPotongan += total;
+                
+                const bulanMulai = item.bulan_mulai ? new Date(item.bulan_mulai).toLocaleDateString('id-ID', {month: 'long', year: 'numeric'}) : '-';
+                
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${item.nama}</td>
+                    <td>${item.nip}</td>
+                    <td>${item.jabatan}</td>
+                    <td>${item.fakultas}</td>
+                    <td>${item.jenis_qurban}</td>
+                    <td>${item.nominal ? 'Rp ' + item.nominal.toLocaleString('id-ID') : '-'}</td>
+                    <td>${item.nominal ? 'Rp ' + total.toLocaleString('id-ID') : '-'}</td>
+                    <td>${bulanMulai}</td>
+                `;
+                container.appendChild(row);
+            });
+            
+            // Add summary row
+            const summaryRow = document.createElement('tr');
+            summaryRow.style.fontWeight = 'bold';
+            summaryRow.innerHTML = `
+                <td colspan="6">Total</td>
+                <td></td>
+                <td>Rp ${totalPotongan.toLocaleString('id-ID')}</td>
+                <td></td>
+            `;
+            container.appendChild(summaryRow);
+            
+            // Update print date
+            document.getElementById('tanggalCetak').textContent = new Date().toLocaleDateString('id-ID', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+        
+        // Show alert message
+        function showAlert(message, elementId, isSuccess = true) {
+            const alertElement = document.getElementById(elementId);
+            alertElement.textContent = message;
+            alertElement.style.display = 'block';
+            
+            if (isSuccess) {
+                alertElement.className = 'success-message';
+            } else {
+                alertElement.className = 'warning-message';
+            }
+            
+            setTimeout(() => {
+                alertElement.style.display = 'none';
+            }, 5000);
+        }
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set bulan mulai to next month by default
+            const today = new Date();
+            const nextMonth = new Date(today.getFullYear(), today.getMonth() + 1, 1);
+            const year = nextMonth.getFullYear();
+            const month = String(nextMonth.getMonth() + 1).padStart(2, '0');
+            document.getElementById('bulan_mulai').value = `${year}-${month}`;
+            
+            // Generate initial report if on laporan tab
+            if (document.querySelector('.nav-tabs a.active').getAttribute('href') === '#laporan') {
+                generateLaporan();
+            }
+        });
+    </script>
